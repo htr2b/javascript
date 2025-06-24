@@ -37,7 +37,20 @@
 // names.pop()
 // console.log(names);
 
-let names = ['Onur', 'Salih', 'Adnan', 'Osman']
-console.log(names);
-names.shift()
-console.log(names);
+// let names = ['Onur', 'Salih', 'Adnan', 'Osman']
+// console.log(names);
+// names.shift()
+// console.log(names);
+// names.unshift('Onur')
+// console.log(names);
+
+// let names = ['Onur', 'Salih', 'Adnan', 'Osman']
+// names.reverse()
+// console.log(names);
+// names.sort()
+// console.log(names);
+
+// let nums = [1,4,2,5,23,5,21,2]
+// nums.sort()                           Error
+// console.log(nums);
+
