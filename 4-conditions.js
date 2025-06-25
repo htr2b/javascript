@@ -13,7 +13,7 @@
 
 // switch (result) {
 //     case 7:
-//         alert('you got it right') 
+//         alert('you got it right')
 //         break;
 //     case '':
 //         alert('you should try it')
@@ -59,7 +59,7 @@
 //     alert('a is greater than b')
 // else if(a==b)
 //     alert('a equals to b')
-// else 
+// else
 //     alert('b is greater than a')
 //
 // alert(a > b ? 'a is greater than b' : a < b ? 'b is greater than a' : 'they are equal');
