@@ -29,28 +29,28 @@
 // })
 
 
-// const API_URL = 'https://jsonplaceholder.typicode.com/posts'
-// fetch(API_URL).then(res => res.json()).then(data => console.log(data)).catch(err => console.error(err))
+const API_URL = 'https://jsonplaceholder.typicode.com/posts'
+//fetch(API_URL).then(res => res.json()).then(data => console.log(data)).catch(err => console.error(err))
 
-// async function getPosts(API_URL) {
-//     try {
-//         const res = await fetch(API_URL)
-//         const data = await res.json()
-//         console.log(data);
-//     } catch (error) {
-//         console.log(error.message);
+async function getPosts(API_URL) {
+    try {
+        const res = await fetch(API_URL)
+        const data = await res.json()
+        console.log(data);
+    } catch (error) {
+        console.log(error.message);
 
-//     }
-// }
-// getPosts(API_URL)
+    }
+}
+getPosts(API_URL)
 
-// const square = async n => {
-//     const value = await (n * n)
-//     return value
-// }
-// (async () => {
-//     const result = await square(2)
-//     console.log(result);
-// })();
+const square = async n => {
+    const value = await (n * n)
+    return value
+}
+(async () => {
+    const result = await square(2)
+    console.log(result);
+})();
 
 
