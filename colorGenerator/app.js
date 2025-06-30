@@ -1,7 +1,5 @@
 const button = document.getElementById('generateColorBtn')
-let randomNumR = 0
-let randomNumG = 0
-let randomNumB = 0
+
 const numberGen = (maxValue) => {
     return Math.floor(Math.random() * (maxValue + 1))
 }
